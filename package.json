@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/**/*.test.js --timeout=200000 --reporter mochawesome",
-    "test_sem_relatorio": "mocha ./test/**/*.test.js --timeout=200000"    
+    "test_sem_relatorio": "mocha ./test/**/*.test.js --timeout=200000"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "chai": "^6.2.2",
+    "dotenv": "^17.3.1",
     "mocha": "^11.7.5",
     "mochawesome": "^7.1.4",
     "supertest": "^7.2.2"
